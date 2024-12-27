@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e0f7fa;
+    padding: 20px 40px;
+    border-bottom: 4px solid #0288d1;
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: auto;
+    text-align: center;
+  }
+  
+  .navbar-naglowek {
+    font-size: 24px;
+    color: #01579b;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px 20px;
+      border-radius: 20px; 
+    }
+  
+    .navbar-naglowek {
+      font-size: 18px;
+    }
+  }
+  

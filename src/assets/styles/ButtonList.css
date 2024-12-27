@@ -1,0 +1,32 @@
+/* Style dla ButtonList */
+.button-list-container {
+    margin-top: 120px; /* Zwiększamy odstęp od Navbar (uwaga na jego wysokość) */
+    text-align: center; /* Wyśrodkowanie przycisków */
+  }
+  
+  .przycisk {
+    display: block;
+    width: 90%; /* Przyciski rozciągają się na 90% szerokości kontenera */
+    max-width: 400px; /* Maksymalna szerokość, aby przyciski nie były za szerokie na dużych ekranach */
+    margin: 20px auto; /* Wyśrodkowanie poziome i przerwa pomiędzy przyciskami */
+    padding: 15px 20px; /* Większe przyciski */
+    background-color: #003366; /* Ciemnoniebieski kolor */
+    color: white; /* Kolor tekstu */
+    border: none;
+    border-radius: 10px; /* Zaokrąglone rogi */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Płynne przejście */
+  }
+  
+  .przycisk:hover {
+    background-color: #00509e; /* Jaśniejszy niebieski podczas najechania */
+    transform: scale(1.05); /* Lekkie powiększenie przy najechaniu */
+  }
+  
+  .przycisk:active {
+    background-color: #001f4d; /* Ciemniejszy niebieski podczas kliknięcia */
+    transform: scale(0.95); /* Lekkie zmniejszenie przy kliknięciu */
+  }
+  

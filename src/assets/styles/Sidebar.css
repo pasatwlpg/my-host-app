@@ -1,0 +1,62 @@
+/* Style dla Sidebaru */
+.sidebar {
+    position: fixed;
+    right: -250px; /* Początkowa pozycja: poza ekranem */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #003366;
+    color: white;
+    transition: right 0.3s ease-in-out; /* Płynna animacja przy wysuwaniu */
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.3); /* Cień po lewej stronie */
+    padding-top: 70px; /* Odstęp dla przycisku, aby nie zachodził na niego */
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    right: 0; /* Pozycja po otwarciu sidebaru */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0288d1;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #01579b;
+  }
+  
+  /* Przycisk do otwierania i zamykania sidebaru */
+  .sidebar-toggle {
+    position: fixed;
+    top: 20px; /* Ustawienie przycisku nieco niżej, aby nie kolidował z treścią */
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #0288d1;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1500;
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: #01579b;
+  }
+  
