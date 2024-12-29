@@ -24,6 +24,7 @@
   
   @media (max-width: 768px) {
     .navbar {
+      position: static;
       padding: 15px 20px;
       border-radius: 20px; 
     }
