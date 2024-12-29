@@ -75,7 +75,8 @@ body {
   }
 
   button {
-    width: 100%; /* Przyciski rozciągają się na całą szerokość */
+    width: 90%; /* Przycisk zajmuje 90% szerokości ekranu */
+    max-width: none;
     font-size: 16px; /* Mniejszy tekst na przycisku */
     padding: 12px; /* Zwiększone marginesy dla łatwiejszego kliknięcia */
   }
