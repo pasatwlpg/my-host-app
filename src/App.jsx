@@ -6,6 +6,10 @@ import ButtonList from './components/ButtonList'
 import SpedycjaPage from "./pages/SpedycjaPage";
 import TransportPage from './pages/TransportPage';
 import Sidebar from './components/Sidebar';
+import TrzyPage from './pages/TrzyPage';
+import CzteryPage from './pages/CzteryPage';
+import PiecPage from './pages/PiecPage';
+import Contact from './components/Contact';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +22,11 @@ function App() {
                 <Route path="/" element={<ButtonList />} />
                 <Route path="/spedycja" element={<SpedycjaPage />} />
                 <Route path="/transport" element={<TransportPage />} />
+                <Route path="/trzy" element={<TrzyPage />} />
+                <Route path="/cztery" element={<CzteryPage />} />
+                <Route path="/piec" element={<PiecPage />} />
               </Routes>
+              <Contact/>
             </Router>
           </>
   )

@@ -9,8 +9,9 @@ function Sidebar() {
   const buttons = [
     { id: 'spedycja', label: 'Spedycja', path: '/spedycja' },
     { id: 'transport', label: 'Transport', path: '/transport' },
-    // Dodaj nowe przyciski w przyszłości w ten sposób:
-    // { id: 'nowyPrzycisk', label: 'Nowy Przycisk', path: '/nowa-strona' }
+    { id: 'trzy', label: 'Trzy', path: '/trzy' },
+    { id: 'cztery', label: 'Cztery', path: '/cztery' },
+    { id: 'piec', label: 'Piec', path: '/piec' },
   ];
 
   function toggleSidebar() {

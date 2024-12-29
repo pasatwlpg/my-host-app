@@ -1,23 +1,24 @@
 /* Style dla ButtonList */
 .button-list-container {
-    margin-top: 120px; /* Zwiększamy odstęp od Navbar (uwaga na jego wysokość) */
-    text-align: center; /* Wyśrodkowanie przycisków */
+    margin-top: 120px; 
+    text-align: center;
   }
   
   .przycisk {
     display: block;
-    width: 90%; /* Przyciski rozciągają się na 90% szerokości kontenera */
-    max-width: 400px; /* Maksymalna szerokość, aby przyciski nie były za szerokie na dużych ekranach */
-    margin: 20px auto; /* Wyśrodkowanie poziome i przerwa pomiędzy przyciskami */
-    padding: 15px 20px; /* Większe przyciski */
-    background-color: #003366; /* Ciemnoniebieski kolor */
-    color: white; /* Kolor tekstu */
+    width: 200%; 
+    max-width: 400px; 
+    margin: 60px auto; 
+    padding: 20px 70px; 
+    background-color: #003366; 
+    color: white; 
     border: none;
-    border-radius: 10px; /* Zaokrąglone rogi */
-    font-size: 18px;
+    border-radius: 10px;
+    font-size: 25px;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s ease; /* Płynne przejście */
+    transition: all 0.3s ease; 
+    gap: 15px;
   }
   
   .przycisk:hover {
@@ -28,5 +29,11 @@
   .przycisk:active {
     background-color: #001f4d; /* Ciemniejszy niebieski podczas kliknięcia */
     transform: scale(0.95); /* Lekkie zmniejszenie przy kliknięciu */
+  }
+
+  .przycisk-img {
+    width: 80px; /* Dostosuj rozmiar obrazka */
+    height: 80px;
+    object-fit: contain;
   }
   

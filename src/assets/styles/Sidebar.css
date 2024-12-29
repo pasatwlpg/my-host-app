@@ -24,6 +24,7 @@
   }
   
   .sidebar-button {
+    margin-bottom: 20px;
     width: 100%;
     padding: 15px;
     background-color: #0288d1;
@@ -32,6 +33,7 @@
     font-weight: bold;
     border: none;
     border-bottom: 1px solid #fff;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
