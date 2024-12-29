@@ -1,15 +1,15 @@
 .navbar {
     position: fixed;
     top: 0;
-    /* left:50%;
-    transform: translateX(-50%); */
+    left:50%;
+    transform: translateX(-50%);
     background-color: #f0f8ff;
     padding: 20px 40px;
     border-bottom: 4px solid #0288d1;
     border-radius: 25px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    width: 100%;
+    width: auto;
     text-align: center;
   }
   
@@ -29,6 +29,7 @@
       padding: 15px 20px;
       border-radius: 20px; 
       text-align: center;
+      left:0%;
     }
   
     .navbar-naglowek {
