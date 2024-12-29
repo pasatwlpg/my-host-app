@@ -58,3 +58,31 @@ body {
   background-color: #f0f8ff;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Zmniejszony rozmiar czcionki */
+    padding: 10px; /* Marginesy wewnętrzne dla całego widoku */
+  }
+
+  h1 {
+    font-size: 24px; /* Mniejszy nagłówek */
+    text-align: center; /* Wyśrodkowanie tekstu */
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.4; /* Ulepszone czytanie na małych ekranach */
+  }
+
+  button {
+    width: 100%; /* Przyciski rozciągają się na całą szerokość */
+    font-size: 16px; /* Mniejszy tekst na przycisku */
+    padding: 12px; /* Zwiększone marginesy dla łatwiejszego kliknięcia */
+  }
+
+  img {
+    max-width: 100%; /* Obrazki dostosowują się do szerokości ekranu */
+    height: auto; /* Zachowanie proporcji */
+  }
+}
+

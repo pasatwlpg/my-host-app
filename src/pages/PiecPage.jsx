@@ -1,10 +1,11 @@
 import React from "react";
+import "../assets/styles/Piec.css";
 
 function PiecPage() {
   return (
-    <div>
-      <h1>Piec</h1>
-      <p>Informacje o usługach transportowych...</p>
+    <div className="page-container">
+      <h1 className="naglowek-page">Piec</h1>
+      <p className="paragraf-page">Informacje o usługach transportowych...</p>
     </div>
   );
 }

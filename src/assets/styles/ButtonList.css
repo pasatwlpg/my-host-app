@@ -5,20 +5,22 @@
   }
   
   .przycisk {
-    display: block;
+    display: flex; /* Używamy flexboxa, aby wyrównać obrazek i tekst */
+    align-items: center; /* Wyrównuje elementy pionowo */
+    justify-content: center;
     width: 200%; 
-    max-width: 400px; 
+    max-width: 500px; 
     margin: 60px auto; 
     padding: 20px 70px; 
     background-color: #003366; 
     color: white; 
     border: none;
-    border-radius: 10px;
-    font-size: 25px;
+    border-radius: 12px;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease; 
-    gap: 15px;
+    gap: 30px;
   }
   
   .przycisk:hover {
@@ -32,8 +34,14 @@
   }
 
   .przycisk-img {
-    width: 80px; /* Dostosuj rozmiar obrazka */
-    height: 80px;
-    object-fit: contain;
+    width: 100px; /* Szerokość obrazka */
+    height: 100px; /* Wysokość obrazka */
+    object-fit: contain; /* Obrazek dopasowany bez deformacji */
+    border-radius: 8px;
   }
   
+  .przycisk-label {
+    flex-grow: 1; /* Dostosowuje szerokość tekstu w stosunku do obrazka */
+    text-align: center; /* Wyrównuje tekst, aby wyglądało naturalnie */
+    line-height: 1.2;
+  }

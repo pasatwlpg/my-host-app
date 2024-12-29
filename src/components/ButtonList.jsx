@@ -56,7 +56,7 @@ function ButtonList() {
           onClick={() => handleButtonClick(button.path)} 
         >
           {button.img && <img src={button.img} alt={button.label} className="przycisk-img"/> }
-          {button.label} 
+          <span className="przycisk-label">{button.label}</span> 
         </button>
       ))}
     </div>

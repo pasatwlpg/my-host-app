@@ -1,10 +1,11 @@
 import React from "react";
+import "../assets/styles/Transport.css";
 
 function TransportPage() {
   return (
-    <div>
-      <h1>Transport</h1>
-      <p>Informacje o usługach transportowych...</p>
+    <div className="page-container">
+      <h1 className="naglowek-page">Transport</h1>
+      <p className="paragraf-page">Informacje o usługach transportowych...</p>
     </div>
   );
 }

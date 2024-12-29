@@ -28,8 +28,8 @@ function Contact() {
       </button>
       {showContactInfo && (
         <div className="contact-info">
-          <p>Telefon: +48 123 456 789</p>
-          <p>Email: kontakt@example.com</p>
+          <p className="contact-napisy">Telefon: +48 123 456 789</p>
+          <p className="contact-napisy">Email: kontakt@example.com</p>
         </div>
       )}
     </div>
