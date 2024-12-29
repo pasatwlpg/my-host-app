@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../assets/styles/Contact.css";
+import { FaUsers } from "react-icons/fa";
 
 function Contact() {
   const [showContactInfo, setShowContactInfo] = useState(false);
@@ -24,7 +25,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <button className="contact-button" onClick={toggleContactInfo}>
-        Kontakt
+        Kontakt <FaUsers />
       </button>
       {showContactInfo && (
         <div className="contact-info">

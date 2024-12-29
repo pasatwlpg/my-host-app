@@ -8,10 +8,10 @@
     display: flex; /* Używamy flexboxa, aby wyrównać obrazek i tekst */
     align-items: center; /* Wyrównuje elementy pionowo */
     justify-content: center;
-    width: 200%; 
+    width: 100%; 
     max-width: 500px; 
     margin: 60px auto; 
-    padding: 20px 70px; 
+    padding: 20px 300px; 
     background-color: #003366; 
     color: white; 
     border: none;
