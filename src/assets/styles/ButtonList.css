@@ -2,6 +2,8 @@
 .button-list-container {
     margin-top: 120px; 
     text-align: center;
+    width: 100%; /* Szerokość ograniczona do ekranu */
+    max-width: 100%; /* Wyłączenie ograniczenia szerokości */
   }
   
   .przycisk {
